@@ -1,0 +1,28 @@
+.block{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 80vh;
+}
+.block_list{
+    border: 2px solid red;
+    padding: 30px;
+}
+.cards{
+    padding: 30px;
+    border: 2px solid red;
+}
+.button_block{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_block{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
